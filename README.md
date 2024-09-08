@@ -7,26 +7,53 @@
 <a href="https://packagist.org/packages/laravel/cashier"><img src="https://img.shields.io/packagist/l/laravel/cashier" alt="License"></a>
 </p>
 
-## Introduction
+# Laravel Cashier for Paystack
 
-Laravel Cashier provides an expressive, fluent interface to [Stripe's](https://stripe.com) subscription billing services. It handles almost all of the boilerplate subscription billing code you are dreading writing. In addition to basic subscription management, Cashier can handle coupons, swapping subscription, subscription "quantities", cancellation grace periods, and even generate invoice PDFs.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/your-vendor/cashier-paystack.svg?style=flat-square)](https://packagist.org/packages/your-vendor/cashier-paystack)
+[![Total Downloads](https://img.shields.io/packagist/dt/your-vendor/cashier-paystack.svg?style=flat-square)](https://packagist.org/packages/your-vendor/cashier-paystack)
+[![License](https://img.shields.io/packagist/l/your-vendor/cashier-paystack.svg?style=flat-square)](https://packagist.org/packages/your-vendor/cashier-paystack)
 
-## Official Documentation
+Laravel Cashier for Paystack provides an expressive, fluent interface to [Paystack's](https://paystack.com) payment services. It handles almost all of the boilerplate payment code you are dreading writing. In addition to basic payment management, Cashier can handle subscriptions, invoicing, and more.
 
-Documentation for Cashier can be found on the [Laravel website](https://laravel.com/docs/billing).
+## Installation
+
+You can install the package via composer:
+
+```bash
+composer require josephajibodu/cashier-paystack
+```
+
+## Usage
+
+// TODO: Add usage instructions
+
+## Testing
+
+```bash
+composer test
+```
+
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## Contributing
 
-Thank you for considering contributing to Cashier! You can read the contribution guide [here](.github/CONTRIBUTING.md).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
-Please review [our security policy](https://github.com/laravel/cashier/security/policy) on how to report security vulnerabilities.
+Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+
+## Credits
+
+- [Joseph Ajibodu](https://github.com/josephajibodu)
+- [All Contributors](../../contributors)
 
 ## License
 
-Laravel Cashier is open-sourced software licensed under the [MIT license](LICENSE.md).
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Acknowledgements
+
+This package is based on [Laravel Cashier](https://github.com/laravel/cashier-stripe), adapted for use with Paystack.
